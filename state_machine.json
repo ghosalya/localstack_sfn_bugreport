@@ -1,0 +1,10 @@
+{
+    "StartAt": "FirstState",
+    "States": {
+        "FirstState": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:us-east-1:000000000000:activity:test_activity",
+            "End": true
+        }
+    }
+}
